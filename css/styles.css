@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0 0 0 0;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.presentation {
+  border: 1px solid rgb(245, 235, 235);
+  width: 46%;
+  height: 100vh;
+  background-image: url("../img/Twitter.png");
+  text-align: center;
+}
+.presentation span {
+  justify-content: center;
+}
+
+.login {
+  width: 54%;
+  height: 100vh;
+  display: inline-block;
+  margin-left: 30px;
+}
+.login .icon-2 {
+  margin-top: 20px;
+}
+.login .icon-2 span img {
+  height: 75px;
+}
+.login .text h1 {
+  font-size: 68px;
+}
+.login .form form {
+  justify-content: center;
+}
+.login .form form .btn {
+  width: 290px;
+  height: 43px;
+  border-radius: 25px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.login .form form .btn .google-btn {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.login .form form .btn .google-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+.login .form form .btn .google-btn .text_ {
+  opacity: 0.9;
+}
+.login .form form .btn:hover {
+  cursor: pointer;
+}
+.login .form form .separator {
+  display: flex;
+  margin: 10px 0 0 5px;
+  width: 36%;
+  gap: 15px;
+}
+.login .form form .separator hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 0.3px solid gray;
+}
+.login .form form .separator span {
+  color: white;
+}
+.login .form .phone-btn {
+  width: 290px;
+  height: 43px;
+  border-radius: 25px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 161, 242);
+  color: white;
+}
+.login .form .new {
+  width: 37%;
+  font-size: 12px;
+  color: gray;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+}
+.login .form .new a {
+  font-size: 13;
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+}
+.login .form .new a:hover {
+  text-decoration: solid;
+}
+.login .autor {
+  border: none;
+  border-bottom: 2px solid rgb(29, 161, 242);
+  width: 25%;
+}
+.login .autor h2 {
+  color: yellow;
+}
+.login .autor h2 a {
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
